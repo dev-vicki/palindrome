@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Palindrome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-heading">
+            <h1>Check out is your birthday a palindrome</h1>
+            <p>Note: A palindrome is a word/number which reads the same when read from forward as well as backward.</p>
+            <div><img src="/bday.svg" alt="baloons"></div>
+        </div>
+    </header>
+
+
+    <div class="content" id="main">
+        <header class="heading">
+            Is your Birthday Palindrome or not ?
+        </header>
+        <section>
+            <input type="date" id="bday-input">
+            <button id="check-btn">Check</button>
+            <div id="loader"><img src="doubleRing.svg" alt="loader"></div>
+            <div id="result"></div>
+            <div class="about">
+                This app checks your birthdate in 6 formats <strong>yyyy-mm-dd, dd-mm-yyyy, mm-dd-yyyy, dd-mm-yy,
+                    mm-dd-yy, yy-mm-dd</strong>
+                e.g. if your birthdate is 07 Aug 1999, then app will check for <strong> 07081999, 08071999, 19990807,
+                    070899, 080799, 990807.</strong>
+            </div>
+        </section>
+    </div>
+    <div class="another-link"><a href="https://luckkybday.netlify.app/" target="_blank"> Check out "Is Your Birthday
+            Lucky?" </a></div>
+
+    <footer>
+        Made with ❤ by Vignesh
+        <ul>
+            <li><a href="https://github.com/dev-vicki">github</a></li>
+            <li><a href="https://twitter.com/dev_vicki">twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/vignesh77/">linkedIn</a></li>
+        </ul>
+    </footer>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
